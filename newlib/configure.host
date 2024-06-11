@@ -185,6 +185,9 @@ case "${host_cpu}" in
   hppa*)
 	machine_dir=hppa
 	;;
+  headsail*)
+    machine_dir=headsail
+    ;;
   i960)
 	machine_dir=i960
 	;;
@@ -514,6 +517,9 @@ case "${host}" in
   h8500-*-elf*)
 	sys_dir=h8500hms
 	;;
+  headsail-*-*)
+    sys_dir=syscalls
+    ;;
   i[34567]86-*-rdos*)
 	sys_dir=rdos
 	newlib_cflags="${newlib_cflags} -DMISSING_SYSCALL_NAMES"

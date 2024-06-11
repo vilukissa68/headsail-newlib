@@ -41,6 +41,7 @@ if test -n "${machine_dir}"; then
 	h8300) AC_CONFIG_SUBDIRS(h8300) ;;
 	h8500) AC_CONFIG_SUBDIRS(h8500) ;;
 	hppa) AC_CONFIG_SUBDIRS(hppa) ;;
+	headsail) AC_CONFIG_SUBDIRS(headsail) ;;
 	i386) AC_CONFIG_SUBDIRS(i386) ;;
 	i960) AC_CONFIG_SUBDIRS(i960) ;;
 	iq2000) AC_CONFIG_SUBDIRS(iq2000) ;;
