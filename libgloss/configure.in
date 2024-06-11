@@ -63,6 +63,9 @@ case "${target}" in
   hppa*-*-pro*)
 	AC_CONFIG_SUBDIRS([pa])
 	;;
+  headsail-*-*)
+	AC_CONFIG_SUBDIRS(headsail)
+	;;
   i960-*-coff)
 	AC_CONFIG_SUBDIRS([i960])
 	;;
